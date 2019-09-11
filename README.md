@@ -7,7 +7,7 @@ This repository gives you a quick introduction to getting docker running with No
 First, checkout this project locally and then follow these steps:
 
 1. Install the [Docker for Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe).
-2. Start a [Quickstart Terminal](https://docs.docker.com/v17.09/docker-for-windows/install/#install-docker-for-windows)session (see the getting started guide).
+2. Start a [Quickstart Terminal](https://docs.docker.com/v17.09/docker-for-windows/install/#install-docker-for-windows) session (see the getting started guide).
 3. Build the Docker image: `docker build -t hello-world .`
 4. Run the image in a container: `docker run -d -p 4001:4000 hello-world`
   - The `-d` flag says to run the container in the background (daemon mode).
